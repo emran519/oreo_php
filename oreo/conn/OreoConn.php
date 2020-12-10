@@ -24,11 +24,11 @@ class OreoConn {
     //构造函数 （自动运行）
     public function __construct()
     {
-        $this->host = '127.0.0.1';
-        $this->port =  55396;
-        $this->dbUser = 'oreo_php_test';
-        $this->dbName = 'oreo_php_test';
-        $this->dbPass = '123456';
+        $this->host   = '127.0.0.1'; //数据库地址
+        $this->port   =  55396;//数据库端口
+        $this->dbUser = 'oreo_php_test';//数据库用户名
+        $this->dbName = 'oreo_php_test';//数据库库名
+        $this->dbPass = '123456';//数据库密码
         $this->pdoSql();  //执行pdoSql函数
     }
 
