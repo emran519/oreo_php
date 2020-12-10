@@ -24,8 +24,8 @@ class OreoConn {
     //构造函数 （自动运行）
     public function __construct()
     {
-        $this->host   = '127.0.0.1'; //数据库地址
-        $this->port   =  55396;//数据库端口
+        $this->host   = '127.0.0.1'; //数据库地址 （一般localhost或127.0.0.1）
+        $this->port   =  55396;//数据库端口 (一般3306)
         $this->dbUser = 'oreo_php_test';//数据库用户名
         $this->dbName = 'oreo_php_test';//数据库库名
         $this->dbPass = '123456';//数据库密码
