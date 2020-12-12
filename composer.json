@@ -2,11 +2,15 @@
     "name": "oreo/payframe",
     "description": "PHP frame for payment system",
     "type": "library",
+    "keywords": [
+        "framework",
+        "oreopay"
+    ],
     "require": {
         "php": "^7.0",
         "Oreo/db": "^1.0.0"
     },
-    "license": "Apache",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Oreo",
@@ -16,7 +20,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Oreo\\" : "vendor/oreo"
+            "oreo\\" : "vendor/oreo"
         }
     }
 }

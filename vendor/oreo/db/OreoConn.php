@@ -1,5 +1,5 @@
 <?php
-namespace Oreo\db;
+namespace oreo\db;
 
 /**
  *mysql配置文件

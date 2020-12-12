@@ -1,5 +1,5 @@
 <?php
-namespace Oreo\db;
+namespace oreo\db;
 use PDO;
 /**
  *PDO封装类
